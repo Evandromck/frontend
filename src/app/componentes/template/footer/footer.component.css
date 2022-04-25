@@ -1,0 +1,13 @@
+.footer{
+    position: fixed;            /*deixar o elemento fixando*/
+    bottom: 0;                  /*colocando o elemento no roda pé com uma martgem 0*/
+
+    display: flex;
+    justify-content: flex-end;    /*alinhar no eixo principal no final da linha*/
+
+}
+
+.footer > span {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
